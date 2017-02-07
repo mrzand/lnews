@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post 1</title>
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <nav class="menu" id="theMenu">
+        <div class="menu-wrap">
+            <h1 class="logo"><a href="#">LNews</a></h1>
+            <i class="fa fa-arrow-right menu-close"></i>
+            <a href="index.html">Home</a>
+            <a href="#">Celebrities</a>
+            <a href="#">Policy</a>
+            <a href="#">Sport</a>
+            <a href="#">Contacts</a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-envelope"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+        </div>
+        <div id="menuToggle"><i class="fa fa-bars"></i></div>
+    </nav>
+    <div class="container">
+        <div class="row mt">
+            <div class="col-lg-12 centered">
+                <div class="col-lg-5 photo"><img src="assets/img/1.jpg" alt="#">
+                    <div class="col-lg-12 photo"><img src="assets/img/2.jpg" alt="#">
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5">
+                    <h1>Post 1 title.</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                </div>
+                <div class="col-lg-1 closed">
+                    <button onclick="goBack()" id="close"><span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="call">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 com">
+                    <h2>Form control: textarea</h2>
+                    <form role="form">
+                        <div class="form-group">
+                            <label for="comment">Comment:</label>
+                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-danger btn-lg btn-block" id="button-comm">add your comments !</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+    function goBack() {
+        window.history.back();
+    }
+    </script>
+</body>
+
+</html>
